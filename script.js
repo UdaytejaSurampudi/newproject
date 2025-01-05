@@ -20,7 +20,7 @@ var x = setInterval(function () {
   if (distance < 0) {
     clearInterval(x);
     document.getElementById("countdown-box").innerHTML =
-      "<span class='cdi'><strong>Happy birthday veeru</strong></span>";
+      "<span class='cdi'><strong>Happy birthday DUDE;)</strong></span>";
     document.querySelector(".title").innerText = "";
   }
 }, 1000);
